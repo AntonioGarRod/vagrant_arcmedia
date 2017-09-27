@@ -2,7 +2,8 @@
 
 Configuration required:
 * Put the project code or clone the git project code on the 'html' folder
-* Put the database dump with the name 'drupal.sql' on the vagrant root path  
+* Put the database dump with the name 'drupal.sql' on the vagrant root path
+* Run 'vagrant up' and enjoy
 
 The Arcmedia Vagrant VM implements the next steps:
 * Apache2
