@@ -73,3 +73,7 @@ service apache2 restart
 ###### link work directory
 rm -r /var/www/html
 ln -s /vagrant/html/ /var/www/
+
+###### Import database
+mysql -u root -proot -e "create database local"
+mysql -u root -proot local < /vagrant/database.sql
