@@ -22,3 +22,7 @@ The Arcmedia Vagrant VM implements the next steps:
     * The Project root directory can be found at "/vagrant/html"
     
 * Drush installed
+* IP: 192.168.33.10
+* After install update your hosts file to include 
+    * 192.168.33.10 vagrant.dev 
+    * 192.168.33.10 www.vagrant.dev
