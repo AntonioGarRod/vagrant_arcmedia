@@ -67,6 +67,9 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 mv composer.phar /usr/local/bin/composer
 
+###### Apply custom apache configuration
+cp /vagrant/local.conf /etc/apache2/sites-available/000-default.conf
+
 # Ready?
 service apache2 restart
 
@@ -75,5 +78,8 @@ rm -r /var/www/html
 ln -s /vagrant/html/ /var/www/
 
 ###### Import database
-mysql -u root -proot -e "create database local"
-mysql -u root -proot local < /vagrant/database.sql
+mysql -u root -proot -e "create database drupal"
+mysql -u root -proot drupal < /vagrant/drupal.sql
+
+###### Install drush for Drupal environments
+apt-get install drush -y
