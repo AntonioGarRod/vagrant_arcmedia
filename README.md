@@ -3,6 +3,7 @@
 The Arcmedia Vagrant VM implements the next steps:
 * Apache2
     * Apache2 Rewrite URLs enabled
+    * Apache2 Module mod_expires enabled
     * The apache2 configuration file can be found at "local.conf" on vagrant root directory
 * PHP 7.1
 * MySQL 5.6
