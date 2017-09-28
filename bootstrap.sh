@@ -15,6 +15,7 @@ apt-get -y install mysql-server mysql-client
 apt-get -y install php7.1 apache2 libapache2-mod-php7.1
 apt-get -y install php7.1-mysql php7.1-curl php7.1-dev php7.1-gd php7.1-intl php-pear php-imagick php7.1-imap php7.1-mcrypt php7.1-tidy php7.1-xmlrpc php7.1-xsl php7.1-mbstring php-gettext
 apt-get -y install php7.0-zip
+apt-get -y install php-soap php-zip
 apt-get -y install gcc make autoconf libc-dev pkg-config git zip build-essential curl
 chown -R www-data:www-data /var/www/
 
