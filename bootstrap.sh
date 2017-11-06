@@ -87,3 +87,6 @@ mysql -u root -proot drupal < /vagrant/drupal.sql
 
 ###### Install drush for Drupal environments
 apt-get install drush -y
+
+###### Install NPM
+apt-get install npm -y
